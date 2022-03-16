@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100%;
+    background: rgba(50, 144, 156, 0.76);
+}
+.registerition{
+    background: url(./Moviiy.jpg)no-repeat center/cover;
+    min-width: 100%;
+    min-height: 142vh;
+    padding-top: 15px;
+}
+.table{
+    width: 70%;
+    margin: 100px auto;
+    border-collapse: collapse;
+}
+.table th,
+.table td{
+    border: 1px solid #777;
+    padding: 10px;
+}
+
+.form_item{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid red; */
+}
+.register{
+    text-align: center;
+    color: rgb(206, 194, 194);
+    font-family: sans-serif;
+
+}
+.game_name{
+    font-style: italic;
+    color: #FCE580;
+}
+.inputs{
+
+    width: 26%;
+    margin: 5px auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.288);
+    border-radius: 7px;
+}
+.inputs input{
+    width: 90%;
+    height: 28px;
+    color: #fff;
+    font-size: 19px;
+    letter-spacing: 10px;
+    margin: 7px auto;
+    text-indent: 11px;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #FCE580;
+}
+.buttons{
+    /* border: 1px solid rgb(255, 255, 255); */
+    width: 26%;
+    height: 109px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.349);
+    padding: 16px 7px;
+    border-radius: 7px;
+    
+}
+.buttons label{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 11px;
+    margin-left: 55px;
+}
+.issmarriedd{
+    margin-left: 33% !important;
+    margin-bottom: 18px;
+}
+.buttonss{
+    margin: 9px auto ;
+    margin-left: 30%;
+    padding: 6px 20px;
+    background: rgb(15, 57, 99);
+    border: none;
+    border-radius: 4px;
+    color: #FCE580;
+    font-size: 17px;
+}
+
+
+
+.Users_List{
+    min-height: 160vh;
+    background: url(./league-of-legends.jpg)no-repeat center;
+    object-fit: contain;
+    padding-top: 0px;
+    
+}
+
+.table{
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.781);
+    color: #fff;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.Search_name{
+    height: 35px;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.055);
+    border: none;
+    outline:none;
+    border-bottom: 1px solid #fff;
+    text-indent: 15px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 10px;
+}
+
+.fa-magnifying-glass{
+    margin-left: -20px;
+}
+
+#isMerried{
+    margin-top: 3px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    color: #FCE580;
+    font-size: 15px;
+}
+#isMerried option{
+    color: black;
+    font-weight: 559;
+}
+
+#gender{
+    margin-top: 3px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    color: #FCE580;
+    font-size: 15px;
+}
+#gender option{
+    color: black;
+    font-weight: 559;
+}
+.Option_width{
+border: 1px solid red;
+}
+
+
+.fa-user-pen{
+    font-size: 13px;
+    margin-left: 9px;
+    color: rgb(241, 186, 2);
+}
+

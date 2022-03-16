@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registerition  to LEAGUE of LEGENDS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registerition">
+        <div class="form_controls">
+            <div class="form_item">
+                <form action="users.html" class="form">
+                    <h1 class="register">Register to <span class="game_name">LEAGUE of LEGENDS</span></h1>
+                    <div class="inputs">
+                        <input required type="text" class="iname" placeholder="Name">
+                    <input required type="number" class="iage" placeholder="Age">
+                    <input required type="password" class="ipassword" placeholder="Password">
+                    </div>
+                    <div class="buttons">
+                        <label class="issmarriedd" for="">isMerried</label>
+                     <input type="checkbox" class="icheckbox">
+                     <br>
+                     <label for="">Male</label>
+                     <input type="radio" class="gender" checked name="gender" value="male">
+                     <label for="">Female</label>
+                     <input type="radio" class="gender" name="gender" value="female">
+                     <br>
+                     <button class="buttonss" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+    </div>
+   
+    <div class="Users_List">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>N</th>
+                    <th>Name
+                        <form action="">
+                            <input class="Search_name" type="text">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+
+                            <i class="fa-solid fa-users"></i>
+                        </form>
+                    </th>
+                    <th>Age</th>
+                    <th>Password</th>
+                    <th> 
+                        <p>isMerried</p>
+    
+                        <select  id="isMerried" name="" >
+                            <option value="all">isMerried</option>
+                            <option value="merried">merried</option>
+                            <option value="unmerried">unmerried</option>
+                        </select></th>
+                    <th>
+                        <p>ender</p>
+                        <select id="gender" name="" >
+                            <option value="all">Gender</option>
+                            <option value="male">Male</option>
+                            <option  value="female">Female</option>
+                        </select>
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="root"></tbody>
+        </table>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
